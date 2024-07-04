@@ -21,7 +21,7 @@ cd <projectName>
 
 2.Install dependencies:
 npm install
-# or
+ or
 yarn install
 
 Running the Application:
@@ -31,7 +31,7 @@ Running the Application:
 This project uses json-server to mock a REST API for product data. Make sure to start the JSON Server first.
 
 npm run server
-# or
+ or
 yarn server
 
 The server will start at http://localhost:3001 by default.
@@ -41,7 +41,7 @@ The server will start at http://localhost:3001 by default.
 Open a new terminal and run the React application:
 
 npm start
-# or
+ or
 yarn start
 
 The React development server will start at http://localhost:3000 and open in your default web browser.
