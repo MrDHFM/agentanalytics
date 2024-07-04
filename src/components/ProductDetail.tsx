@@ -4,7 +4,6 @@ import { selectProduct, updateProductAsync } from '../features/product/productSl
 import { useParams,useNavigate } from 'react-router-dom';
 import { RootState,AppDispatch } from '../store';
 import api from '../api/api';
-//import { updateProduct } from '../api';
 
 import "../styles/ProductDetail.css"
 
@@ -44,20 +43,9 @@ const ProductDetail: React.FC =  () => {
   const handleUpdate = () => {
     if (product) {
         setClickUpdate(true);
-    //   dispatch(updateProduct({ ...product, name: 'Updated Name',price:20,description:"new" }));
-    //   navigate('/');
     }
   };
 
-
-
-
- 
-console.log(selectedProduct)
-
- 
-
-//console.log(editedProduct)
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
     setEditedProduct({
