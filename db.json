@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "White Shirt",
+      "price": 500,
+      "description": "100% Cotton"
+    },
+    {
+      "id": "2",
+      "name": "Blue Jeans",
+      "price": 200,
+      "description": "Mens Jeans"
+    },
+    {
+      "id": "1720042090315",
+      "name": "Saree",
+      "price": 2345,
+      "description": "silk saree"
+    },
+    {
+      "id": "1720053048096",
+      "name": "Shoes",
+      "price": 900,
+      "description": "Sports shoe"
+    },
+    {
+      "id": "1720053072822",
+      "name": "Watch",
+      "price": 2000,
+      "description": "Titan"
+    },
+    {
+      "id": "1720053095788",
+      "name": "Bracelet",
+      "price": 5000,
+      "description": "Golden Bracelet"
+    }
+  ]
+}
