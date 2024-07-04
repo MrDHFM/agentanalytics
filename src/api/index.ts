@@ -1,5 +1,3 @@
-// src/api/index.ts
-
 import axios from 'axios';
 import { Product } from '../features/product/types';
 
