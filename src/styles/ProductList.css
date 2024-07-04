@@ -107,7 +107,7 @@ body {
     background-color: #007B9E;
 }
 
-/* Responsive design */
+
 @media (max-width: 1200px) {
     .product {
         width: calc(33.333% - 20px); 
