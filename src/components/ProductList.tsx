@@ -1,16 +1,14 @@
-// src/components/ProductList.tsx
-
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchProducts, selectAllProducts } from '../features/product/productSlice';
-import { RootState, AppDispatch } from '../store'; // Ensure AppDispatch is imported
+import { RootState, AppDispatch } from '../store'; 
 import { Product } from '../features/product/types';
 
 import '../styles/ProductList.css'
 
 const ProductList: React.FC = () => {
-  const dispatch: AppDispatch = useDispatch(); // Type the dispatch
+  const dispatch: AppDispatch = useDispatch(); 
   const products = useSelector((state: RootState) => state.product.products) || [];
   const status = useSelector((state: RootState) => state.product.status);
   const error = useSelector((state: RootState) => state.product.error);
